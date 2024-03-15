@@ -1,43 +1,338 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product</title>
-    <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/product.css" />
+  </head>
+  <body>
     <header>
-        <div class="Container">
-          <span class="navbar_logoname">Maid</span>
-          <div class="Navbar__Menu">
-            <div class="navbar_logo"></div>
-            <ul class="navbar_links">
-              <li class="navbar_link"><a href="index.html">News</a></li>
-              <li class="navbar_link"><a href="#">Order</a></li>
-              <li class="navbar_link"><a href="#">Schedule</a></li>
-              <li class="navbar_link"><a href="#">Assistance</a></li>
-            </ul>
-            <div class="custom_input">
-              <svg xmlns="http://www.w3.org/2000/svg" class="svg_icon bi-search" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path></svg>
-              <input class="input" type="text" placeholder="Search for info">
-              <input class="button" type="submit"  value="Tìm">
-          </div>        
-            <ul class="navbar_links_log">
-              <li class="navbar_link_log"><a href="#">Sign in</a></li>
-              <li class="navbar_link_log"><a href="#">Details about us</a></li>
-            </ul>
+      <div class="Container">
+        <span class="navbar_logoname">Maid</span>
+        <div class="Navbar__Menu">
+          <div class="navbar_logo"></div>
+          <ul class="navbar_links">
+            <li class="navbar_link"><a href="index.html">News</a></li>
+            <li class="navbar_link"><a href="#">Order</a></li>
+            <li class="navbar_link"><a href="#">Schedule</a></li>
+            <li class="navbar_link"><a href="#">Assistance</a></li>
+          </ul>
+          <div class="custom_input">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="svg_icon bi-search"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+              ></path>
+            </svg>
+            <input class="input" type="text" placeholder="Search for info" />
+            <input class="button" type="submit" value="Tìm" />
+          </div>
+          <ul class="navbar_links_log">
+            <li class="navbar_link_log"><a href="#">Sign in</a></li>
+            <li class="navbar_link_log"><a href="#">Details about us</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section id="product">
+      <div class="Container">
+        <div class="product_detail">
+          <div class="product_detail_block">
+            <img
+              src="img/Robot-hut-bui-lau-nha-Liectroux-ZK901-chinh-hang.jpg"
+              alt="product"
+            />
+            <h1><b>Product name</b></h1>
+            <p>Price: 100$</p>
+            <p>
+              Detail: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quisquam, quos.
+            </p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="svg_cart bi bi-cart-plus"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z"
+              />
+              <path
+                d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
+              />
+            </svg>
+            <button class="Cart_button">Add to cart</button>
+          </div>
+          <div class="product_detail_block">
+            <img
+              src="img/Robot-hut-bui-lau-nha-Liectroux-ZK901-chinh-hang.jpg"
+              alt="product"
+            />
+            <h1><b>Product name</b></h1>
+            <p>Price: 100$</p>
+            <p>
+              Detail: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quisquam, quos.
+            </p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="svg_cart bi bi-cart-plus"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z"
+              />
+              <path
+                d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
+              />
+            </svg>
+            <button class="Cart_button">Add to cart</button>
+          </div>
+          <div class="product_detail_block">
+            <img
+              src="img/Robot-hut-bui-lau-nha-Liectroux-ZK901-chinh-hang.jpg"
+              alt="product"
+            />
+            <h1><b>Product name</b></h1>
+            <p>Price: 100$</p>
+            <p>
+              Detail: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quisquam, quos.
+            </p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="svg_cart bi bi-cart-plus"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z"
+              />
+              <path
+                d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
+              />
+            </svg>
+            <button class="Cart_button">Add to cart</button>
+          </div>
+          <div class="product_detail_block">
+            <img
+              src="img/Robot-hut-bui-lau-nha-Liectroux-ZK901-chinh-hang.jpg"
+              alt="product"
+            />
+            <h1><b>Product name</b></h1>
+            <p>Price: 100$</p>
+            <p>
+              Detail: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quisquam, quos.
+            </p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="svg_cart bi bi-cart-plus"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z"
+              />
+              <path
+                d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
+              />
+            </svg>
+            <button class="Cart_button">Add to cart</button>
+          </div>
+          <div class="product_detail_block">
+            <img
+              src="img/Robot-hut-bui-lau-nha-Liectroux-ZK901-chinh-hang.jpg"
+              alt="product"
+            />
+            <h1><b>Product name</b></h1>
+            <p>Price: 100$</p>
+            <p>
+              Detail: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quisquam, quos.
+            </p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="svg_cart bi bi-cart-plus"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z"
+              />
+              <path
+                d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
+              />
+            </svg>
+            <button class="Cart_button">Add to cart</button>
           </div>
         </div>
-      </header>
-
-      <footer class="Contact_detail">
-        <div class="Container">
-          <div class="foot_author">
-            <p>Authorizing by LYN - LÊ YẾN NHI</p>
-            <div class="navbar_logo"></div>
+        <div class="product_detail">
+          <div class="product_detail_block">
+            <img
+              src="img/Robot-hut-bui-lau-nha-Liectroux-ZK901-chinh-hang.jpg"
+              alt="product"
+            />
+            <h1><b>Product name</b></h1>
+            <p>Price: 100$</p>
+            <p>
+              Detail: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quisquam, quos.
+            </p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="svg_cart bi bi-cart-plus"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z"
+              />
+              <path
+                d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
+              />
+            </svg>
+            <button class="Cart_button">Add to cart</button>
+          </div>
+          <div class="product_detail_block">
+            <img
+              src="img/Robot-hut-bui-lau-nha-Liectroux-ZK901-chinh-hang.jpg"
+              alt="product"
+            />
+            <h1><b>Product name</b></h1>
+            <p>Price: 100$</p>
+            <p>
+              Detail: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quisquam, quos.
+            </p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="svg_cart bi bi-cart-plus"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z"
+              />
+              <path
+                d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
+              />
+            </svg>
+            <button class="Cart_button">Add to cart</button>
+          </div>
+          <div class="product_detail_block">
+            <img
+              src="img/Robot-hut-bui-lau-nha-Liectroux-ZK901-chinh-hang.jpg"
+              alt="product"
+            />
+            <h1><b>Product name</b></h1>
+            <p>Price: 100$</p>
+            <p>
+              Detail: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quisquam, quos.
+            </p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="svg_cart bi bi-cart-plus"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z"
+              />
+              <path
+                d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
+              />
+            </svg>
+            <button class="Cart_button">Add to cart</button>
+          </div>
+          <div class="product_detail_block">
+            <img
+              src="img/Robot-hut-bui-lau-nha-Liectroux-ZK901-chinh-hang.jpg"
+              alt="product"
+            />
+            <h1><b>Product name</b></h1>
+            <p>Price: 100$</p>
+            <p>
+              Detail: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quisquam, quos.
+            </p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="svg_cart bi bi-cart-plus"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z"
+              />
+              <path
+                d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
+              />
+            </svg>
+            <button class="Cart_button">Add to cart</button>
+          </div>
+          <div class="product_detail_block">
+            <img
+              src="img/Robot-hut-bui-lau-nha-Liectroux-ZK901-chinh-hang.jpg"
+              alt="product"
+            />
+            <h1><b>Product name</b></h1>
+            <p>Price: 100$</p>
+            <p>
+              Detail: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quisquam, quos.
+            </p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="svg_cart bi bi-cart-plus"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z"
+              />
+              <path
+                d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
+              />
+            </svg>
+            <button class="Cart_button">Add to cart</button>
           </div>
         </div>
-      </footer>
-</body>
+      </div>
+    </section>
+    <footer class="Contact_detail">
+      <div class="Container">
+        <div class="foot_author">
+          <p>Authorizing by LYN - LÊ YẾN NHI</p>
+          <div class="navbar_logo"></div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
