@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Whisper&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+.Container {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 140px;
+  padding: 0 auto;
+}
+.Navbar__Menu {
+  display: flex;
+  background-color: floralwhite;
+  background: linear-gradient(130.08deg, #383528 0%);
+  box-shadow: 0px 20px 40px #00000070;
+  border-radius: 100px;
+}
+.navbar_links {
+  display: flex;
+  align-items: center;
+}
+.navbar_link {
+  list-style: none;
+}
+.navbar_link a {
+  display: block;
+  text-decoration: none;
+  border-bottom-right-radius: 20px;
+  color: black;
+  font-size: 1.5em;
+  padding: 20px 20px 20px 20px;
+}
+.navbar_link a:hover {
+  background-color: pink;
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 8% 50%, 0% 0%);
+}
+.navbar_logo {
+  width: 80px;
+  height: 80px;
+  background-color: pink;
+  border-radius: 100px;
+  border-style: outset;
+  border-color: lightblue;
+}
+.navbar_logoname {
+  position: absolute;
+  font-family: "Whisper";
+  font-weight: 400;
+  font-size: 1.5em;
+  transform: translateY(30px) translateX(17px);
+}
+.navbar_links_log {
+  display: flex;
+  align-items: center;
+  padding-left: 13%;
+}
+.navbar_link_log {
+  list-style: none;
+}
+.navbar_link_log a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+  padding: 20px 20px 20px 20px;
+}
+.navbar_link_log a:hover {
+  clip-path: polygon(100% 0%, 91% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  background-color: pink;
+}
+.Search_bar th {
+  padding-left: 60px;
+  font-size: 1.25em;
+}
+.Search_bar_header {
+  text-decoration: none;
+  padding-right: 20px;
+}
+.content_1 {
+  font-size: 1.25em;
+  line-height: 2em;
+  align-items: center;
+  margin: 50px 200px 50px 200px;
+}
+/* placeholder and icon loop*/
+.custom_input {
+  display: flex;
+  align-items: center;
+  position: relative;
+  max-width: 100%;
+  padding-left: 15px;
+}
+.input {
+  font-size: 18px;
+  padding: 5px 10px;
+  width: 100%;
+  padding-left: 35px;
+  outline: none;
+  background: #ffffff;
+  color: #000000;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 3px 3px 2px 0px #e2e2e2;
+  transition: 0.3s ease;
+}
+.input:focus {
+  background: #f2f2f2;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.input::placeholder {
+  color: #dddddd;
+}
+.svg_icon {
+  position: absolute;
+  left: 24px;
+  fill: gray;
+  width: 18px;
+  height: 18px;
+}
+.button{
+  width: 100px;
+  padding: 4px;
+  font-size: 1.25em;
+  align-items: center;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  border-color: #383528 20%;
+  margin: 5px;
+  box-shadow: 3px 3px 2px 0px #e2e2e2;
+}
+.button:hover{
+background-color: pink;
+}
+/* BLACKSWAN animation */
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+svg {
+  font-family: "Russo One", sans-serif;
+  width: 100%;
+  height: 100%;
+}
+svg text {
+  animation: stroke 5s infinite alternate;
+  stroke-width: 2;
+  stroke: #ff8ddf;
+  font-size: 180px;
+}
+@keyframes stroke {
+  0% {
+    fill: rgba(0, 0, 0, 0);
+    stroke: rgba(255, 141, 223, 1);
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 50%;
+    stroke-width: 2;
+  }
+  70% {
+    fill: rgba(0, 0, 0, 0);
+    stroke: rgba(255, 141, 223, 1);
+  }
+  80% {
+    fill: rgba(0, 0, 0, 0);
+    stroke: rgba(255, 141, 223, 1);
+    stroke-width: 3;
+  }
+  100% {
+    fill: rgba(0, 0, 0, 1);
+    stroke: rgba(255, 141, 223, 0);
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 50% 0;
+    stroke-width: 0;
+  }
+}
+.wrapper {
+  background-color: rgb(237, 250, 251);
+  height: 200px;
+}
+.foot_author{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: floralwhite;
+  font-size: 2em;
+  border-radius: 100px;
+}
+.foot_author > p{
+  padding-right: 10px;
+}

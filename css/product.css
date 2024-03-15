@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Whisper&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+:root{
+    transition: ease all 0.3s smooth;
+}
+.Container {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 140px;
+  padding: 0 auto;
+}
+.Navbar__Menu {
+  display: flex;
+  background-color: floralwhite;
+  background: linear-gradient(130.08deg, #383528 0%);
+  box-shadow: 0px 20px 40px #00000070;
+  border-radius: 100px;
+  transition:var(smooth) ;
+}
+.navbar_links {
+  display: flex;
+  align-items: center;
+}
+.navbar_link {
+  list-style: none;
+}
+.navbar_link a {
+  display: block;
+  text-decoration: none;
+  border-bottom-right-radius: 20px;
+  color: black;
+  font-size: 1.5em;
+  padding: 20px 20px 20px 20px;
+}
+.navbar_link a:hover {
+  background-color: pink;
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 8% 50%, 0% 0%);
+}
+.navbar_logo {
+  width: 80px;
+  height: 80px;
+  background-color: pink;
+  border-radius: 100px;
+  border-style: outset;
+  border-color: lightblue;
+}
+.navbar_logoname {
+  position: absolute;
+  font-family: "Whisper";
+  font-weight: 400;
+  font-size: 1.5em;
+  transform: translateY(30px) translateX(17px);
+}
+.navbar_links_log {
+  display: flex;
+  align-items: center;
+  padding-left: 15%;
+}
+.navbar_link_log {
+  list-style: none;
+}
+.navbar_link_log a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+  padding: 20px 20px 20px 20px;
+}
+.navbar_link_log a:hover {
+  clip-path: polygon(100% 0%, 91% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  background-color: pink;
+}
+.custom_input {
+  display: flex;
+  align-items: center;
+  position: relative;
+  max-width: 100%;
+  padding-left: 15px;
+}
+.input {
+  font-size: 18px;
+  padding: 5px 10px;
+  width: 100%;
+  padding-left: 35px;
+  outline: none;
+  background: #ffffff;
+  color: #000000;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 3px 3px 2px 0px #e2e2e2;
+  transition: 0.3s ease;
+}
+.input:focus {
+  background: #f2f2f2;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.input::placeholder {
+  color: #dddddd;
+}
+.svg_icon {
+  position: absolute;
+  left: 24px;
+  fill: gray;
+  width: 18px;
+  height: 18px;
+}
+.button {
+  width: 100px;
+  padding: 4px;
+  font-size: 1.25em;
+  align-items: center;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  border-color: #383528 20%;
+  margin: 5px;
+  box-shadow: 3px 3px 2px 0px #e2e2e2;
+}
+.button:hover {
+  background-color: pink;
+}
